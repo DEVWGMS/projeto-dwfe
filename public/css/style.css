@@ -262,18 +262,8 @@ a {
   max-width: 360px;
 }
 
-/* Responsividade da Newsletter */
-@media (max-width: 500px) {
-  .form-inline {
-    flex-direction: column;
-  }
-  
-  .form-inline input[type="email"] {
-    max-width: 100%;
-  }
-}
 
-/* SOBRE */
+
 .about {
   padding: 60px 0;
   background-color: var(--bg-section);
@@ -307,26 +297,3 @@ a {
   color: #fff;
 }
 
-/* RESPONSIVIDADE */
-@media (max-width: 768px) {
-  .hero-content,
-  .interact-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .header .container {
-    flex-direction: column;
-    height: auto;
-    padding: 15px 0;
-  }
-
-  .search-form {
-    display: none;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
-  }
-}
